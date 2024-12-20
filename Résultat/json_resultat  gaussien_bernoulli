@@ -1,0 +1,1286 @@
+[
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 20
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.623"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 20
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.320"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 30
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.636"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 30
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.310"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 50
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.641"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 50
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.262"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.621"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.244"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.621"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.238"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.621"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.242"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.621"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.245"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.621"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-07
+        },
+        "f1_score": "0.245"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 1.0,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.622"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.247"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 20
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.623"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 20
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.316"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 30
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.634"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 30
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.309"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 50
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.644"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 50
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.262"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.621"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.243"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.621"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.238"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.621"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.241"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.621"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.245"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.622"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.240"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 1.0,
+            "fit_prior": true
+        },
+        "f1_score": "0.621"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.249"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 20
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.622"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 20
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.287"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 30
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 1.0,
+            "binarize": 0.5,
+            "fit_prior": true
+        },
+        "f1_score": "0.643"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 30
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.296"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 50
+            }
+        },
+        "classifieur_name": "Bernoulli",
+        "best_param": {
+            "alpha": 0.1,
+            "binarize": 1.0,
+            "fit_prior": true
+        },
+        "f1_score": "0.635"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 50
+            }
+        },
+        "classifieur_name": "Gaussian",
+        "best_param": {
+            "var_smoothing": 1e-09
+        },
+        "f1_score": "0.234"
+    }
+]
