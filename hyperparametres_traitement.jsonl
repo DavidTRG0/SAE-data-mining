@@ -1,0 +1,32 @@
+{
+  "preprocessing": {
+    "racinisation": {
+      "ignore_stopwords": [true, false]
+    },
+    "lemmatisation": {
+      "mode": ["lookup", "rule"],
+      "overwrite": [true, false]
+    }
+  },
+  "vectorization": {
+    "vectorisation_simple": {
+      "ngram_range": [[1, 1], [1, 2]],
+      "max_features": [null, 5000]
+    },
+    "vectorisation_ponderee": {
+      "ngram_range": [[1, 1], [1, 2], [2, 2]],
+      "max_features": [null, 5000],
+      "norm": ["l2", "l1"]
+    }
+  },
+  "dimension_reduction": {
+    "reduction_svd": {
+      "n_components": [50, 100, 200],
+      "n_iter": [5, 10, 15]
+    },
+    "reduction_nmf": {
+      "n_components": [50, 100, 200],
+      "init": ["random", "nndsvd", "use_idf"]
+    }
+  }
+}
