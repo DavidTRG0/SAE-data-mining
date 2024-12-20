@@ -1,0 +1,47 @@
+{
+    "Multinomial": {
+      "alpha": [0.1, 0.5, 1.0, 2.0],
+      "fit_prior": [true, false]
+    },
+    "Gaussian": {
+      "var_smoothing": [1e-9, 1e-8, 1e-7, 1e-6]
+    },
+    "Bernoulli": {
+      "alpha": [0.1, 0.5, 1.0, 2.0],
+      "binarize": [0.0, 0.5, 1.0, 2.0],
+      "fit_prior": [true, false]
+    },
+    "RegressionLogistique": {
+      "penalty": ["l2", null],
+      "C": [0.01, 0.1, 1.0, 10.0],
+      "solver": ["liblinear", "saga", "lbfgs", "newton-cg"],
+      "max_iter": [100, 500, 1000],
+      "l1_ratio": [0.1, 0.5, 0.9]
+    },
+    "KPlusProchesVoisins": {
+      "n_neighbors": [3, 5, 7, 10],
+      "weights": ["uniform", "distance"],
+      "algorithm": ["auto", "ball_tree", "kd_tree", "brute"],
+      "leaf_size": [20, 30, 50],
+      "p": [1, 2]
+    },
+    "ArbreDeDecision": {
+      "criterion": ["gini", "entropy"],
+      "max_depth": [null, 10, 20, 30],
+      "min_samples_split": [2, 5, 10],
+      "min_samples_leaf": [1, 2, 5],
+      "max_features": [null, "sqrt", "log2"],
+      "ccp_alpha": [0.0, 0.01, 0.05]
+    },
+    "ForetAleatoire": {
+      "n_estimators": [100, 200, 500],
+      "criterion": ["gini", "entropy"],
+      "max_depth": [10, 20, 30],
+      "min_samples_split": [2, 5, 10],
+      "min_samples_leaf": [1, 2, 5],
+      "max_features": ["sqrt", "log2", null],
+      "bootstrap": [true, false],
+      "ccp_alpha": [0.0, 0.01, 0.05]
+    }
+  }
+  
