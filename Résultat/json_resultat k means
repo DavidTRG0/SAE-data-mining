@@ -1,0 +1,590 @@
+[
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 20
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.638"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 30
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.641"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 50
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.639"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.630"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.631"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.633"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.645"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.632"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.618"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 20
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.640"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 30
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.637"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 50
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.638"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "uniform"
+        },
+        "f1_score": "0.631"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.630"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.632"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.642"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "kd_tree",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.632"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "KPlusProchesVoisins",
+        "best_param": {
+            "algorithm": "auto",
+            "leaf_size": 30,
+            "n_neighbors": 3,
+            "weights": "distance"
+        },
+        "f1_score": "0.632"
+    }
+]

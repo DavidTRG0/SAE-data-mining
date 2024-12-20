@@ -1,0 +1,798 @@
+[
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 20
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.627"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 30
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 5
+        },
+        "f1_score": "0.640"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 50
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.638"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.626"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.642"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.632"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2,
+            "min_samples_split": 5
+        },
+        "f1_score": "0.633"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.633"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 5
+        },
+        "f1_score": "0.629"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 20
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2,
+            "min_samples_split": 5
+        },
+        "f1_score": "0.632"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 30
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.644"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 50
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2,
+            "min_samples_split": 5
+        },
+        "f1_score": "0.639"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.642"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.632"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 5
+        },
+        "f1_score": "0.634"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 30,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2,
+            "min_samples_split": 5
+        },
+        "f1_score": "0.636"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2,
+            "min_samples_split": 5
+        },
+        "f1_score": "0.623"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_features": 5000
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 50,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2,
+            "min_samples_split": 5
+        },
+        "f1_score": "0.637"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 20
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.634"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 30
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.640"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_svd",
+            "parameters": {
+                "n_components": 50
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.639"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "random"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2,
+            "min_samples_split": 5
+        },
+        "f1_score": "0.638"
+    },
+    {
+        "preprocessing": {
+            "method": "racinisation",
+            "parameters": {
+                "ignore_stopwords": true
+            }
+        },
+        "vectorization": {
+            "method": "vectorisation_simple",
+            "parameters": {
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "max_features": null
+            }
+        },
+        "dimension_reduction": {
+            "method": "reduction_nmf",
+            "parameters": {
+                "n_components": 20,
+                "init": "nndsvd"
+            }
+        },
+        "classifieur_name": "ArbreDeDecision",
+        "best_param": {
+            "ccp_alpha": 0.0,
+            "criterion": "gini",
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2
+        },
+        "f1_score": "0.636"
+    }
+]
