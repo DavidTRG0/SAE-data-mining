@@ -21,12 +21,11 @@
   },
   "dimension_reduction": {
     "reduction_svd": {
-      "n_components": [50, 100, 200],
-      "n_iter": [5, 10, 15]
+      "n_components": [20,30,50]
     },
     "reduction_nmf": {
-      "n_components": [50, 100, 200],
-      "init": ["random", "nndsvd", "use_idf"]
+      "n_components": [20,30,50],
+      "init": ["random", "nndsvd"]
     }
   }
 }
